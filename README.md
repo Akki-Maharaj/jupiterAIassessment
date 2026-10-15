@@ -1,7 +1,7 @@
 # Multimodal Robotics Data Pipeline: Core Computer Vision Implementation
 
 **Role Assessment**: ML Engineer – Robotics (Jupiter AI Labs)  
-**Author**: Akki Maharaj  
+**Author**: Akshat
 **Implementation**: Python, OpenCV, MediaPipe, NumPy, Matplotlib  
 
 ---
@@ -23,15 +23,6 @@ This repository implements the core computer vision data-processing pipeline for
 * **Operating System**: Windows 11 / Linux / macOS
 * **Python Version**: Python 3.12 (tested on Python 3.12.10)
 * **Hardware Used**: Standard x86_64 CPU (no external GPU required for core CV pipeline)
-
-### Installation
-Clone the repository and install the pinned dependencies:
-
-```bash
-git clone <YOUR_PRIVATE_REPO_URL>
-cd <REPO_DIRECTORY>
-pip install -r requirements.txt
-```
 
 ### Pinned Dependencies (`requirements.txt`)
 * `opencv-contrib-python>=4.10.0`
@@ -154,7 +145,7 @@ The raw video containers do not contain embedded high-frequency IMU streams. In 
 
 ## 8. AI Assistant Disclosure
 
-AI coding assistant (Google DeepMind Antigravity / Gemini) was used during this assessment for:
+AI coding assistant was used during this assessment for:
 * Code structuring and OpenCV API synthesis.
-* Formatting the Jupyter notebook and markdown documentation.
+* Research about the methods to approach the solution.
 * Debugging dependency interactions between OpenCV, MediaPipe, and Protobuf on Python 3.12.
