@@ -1,0 +1,6 @@
+# Core Computer Vision & Robotics Pipeline Dependencies
+opencv-contrib-python>=4.10.0
+mediapipe>=0.10.14
+numpy>=1.26.0
+matplotlib>=3.8.0
+protobuf>=4.25.3

@@ -1,0 +1,84 @@
+# =============================================================================
+# Gitignore for Multimodal Robotics Data Pipeline Assessment
+# =============================================================================
+
+# Assessment Specification & Proprietary Materials
+ML_Engineer_Assessment.pdf
+*.pdf
+
+# Windows system files
+desktop.ini
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Raw Videos & Confidential Dataset (Jupiter AI Labs Proprietary)
+# As specified in Section 2 & 6: "Do not include original raw videos in your submission"
+drive-download*
+drive-download*/
+ego/
+umi/
+*.MP4
+*.mp4
+*.mkv
+*.avi
+*.mov
+
+# Exception: allow small processed preview outputs if placed in output/
+!output/annotated_hands.mp4
+!output/ego_synchronized_2x2.mp4
+
+# Model Binary Checkpoints & Tasks (auto-downloaded at runtime)
+hand_landmarker.task
+*.task
+*.tflite
+*.onnx
+*.pt
+*.pth
+*.bin
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.directory
